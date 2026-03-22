@@ -10,14 +10,26 @@ Features:
 
 Technologies used:
 1) C Programming Language
-2) Data Structures
-    a)Structures (struct)
-    b)Dynamic Arrays
-    c)Queues (for waiting list handling)
+2) Data Structures<br>
+    a)Structures (struct)<br>
+    b)Dynamic Arrays<br>
+    c)Queues (for waiting list handling)<br>
 
-Running the project:
-The following steps should be followed to compile the code and then run it: (For windows)
-1) gcc main.c source.c -o hostel_app
+
+How It Works:
+1) Students enter their room preferences.
+2) The system checks room availability.
+3) Rooms are allocated based on:<br>
+    a)Preference priority<br>
+    b)Availability<br>
+4) If no rooms are available:<br>
+    a)Students are added to a waiting queue.
+5) When rooms are freed:<br>
+    a)Waiting students are reallocated.
+
+Running the project:<br>
+The following steps should be followed to compile the code and then run it: (For windows)<br>
+1) gcc main.c source.c -o hostel_app<br>
 This creates the hostel_app.exe file that is an executable that should be ran
-2) ./hostel_app.exe
+2) ./hostel_app.exe<br>
 This runs the executable file
